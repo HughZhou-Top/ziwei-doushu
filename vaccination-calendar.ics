@@ -1,0 +1,831 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vaccine Calendar//Hangzhou 2026-2032//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:儿童疫苗接种参考计划｜杭州
+X-WR-CALDESC:接种日期均为建议安排，不代表已预约；实际
+ 以接种证、在用疫苗说明书及门诊医嘱为准。
+X-WR-TIMEZONE:Asia/Shanghai
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:PT24H
+BEGIN:VEVENT
+UID:hz-vax-01@subscription.calendar
+DTSTAMP:20261121T052300Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:【计划】核对出生疫苗：乙肝①＋卡介苗
+DESCRIPTION:当日计划注射针数：2。出生时国家免费疫苗：
+ 乙肝重组疫苗与卡介苗。仅核对接种证，不代表已接种
+ ；若漏种应尽快联系医院。\n本日为建议接种或记录核
+ 对日，并非已预约或已接种。务必与接种门诊核对产品
+ 说明书、禁忌证、上次接种日期及最小间隔。不同疫苗
+ 的同时接种规则以最新版规范为准。注射后留观30分钟
+ 。
+CATEGORIES:儿童疫苗接种参考
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:接种计划提醒：核对出生疫苗：乙肝①＋卡介
+ 苗
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:接种计划提醒：核对出生疫苗：乙肝①＋卡介
+ 苗
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-vax-02@subscription.calendar
+DTSTAMP:20261121T052300Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:【计划】核对接种证及预约乙肝②
+DESCRIPTION:当日计划注射针数：0。查看出生时乙肝首针及
+ 卡介苗记录，向杭州接种门诊询问自费联合疫苗及库存
+ 。\n本日为建议接种或记录核对日，并非已预约或已接
+ 种。务必与接种门诊核对产品说明书、禁忌证、上次接
+ 种日期及最小间隔。不同疫苗的同时接种规则以最新版
+ 规范为准。注射后留观30分钟。
+CATEGORIES:儿童疫苗接种参考
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:接种计划提醒：核对接种证及预约乙肝②
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:接种计划提醒：核对接种证及预约乙肝②
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-vax-03@subscription.calendar
+DTSTAMP:20261121T052300Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:【计划】乙肝②（免费）
+DESCRIPTION:当日计划注射针数：1。满1月龄，与首剂至少
+ 间隔28天；确认门诊开诊日。\n本日为建议接种或记录
+ 核对日，并非已预约或已接种。务必与接种门诊核对产
+ 品说明书、禁忌证、上次接种日期及最小间隔。不同疫
+ 苗的同时接种规则以最新版规范为准。注射后留观30分
+ 钟。
+CATEGORIES:儿童疫苗接种参考
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:接种计划提醒：乙肝②（免费）
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:接种计划提醒：乙肝②（免费）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-vax-04@subscription.calendar
+DTSTAMP:20261121T052300Z
+DTSTART;VALUE=DATE:20261225
+DTEND;VALUE=DATE:20261226
+SUMMARY:【计划】口服五价轮状病毒①（自费）
+DESCRIPTION:当日计划注射针数：0。满6周龄。首剂需在产
+ 品许可年龄范围内完成；有肠套叠史或严重免疫缺陷等
+ 须告知门诊。\n本日为建议接种或记录核对日，并非已
+ 预约或已接种。务必与接种门诊核对产品说明书、禁忌
+ 证、上次接种日期及最小间隔。不同疫苗的同时接种规
+ 则以最新版规范为准。注射后留观30分钟。
+CATEGORIES:儿童疫苗接种参考
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:接种计划提醒：口服五价轮状病毒①（自费）
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:接种计划提醒：口服五价轮状病毒①（自费）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-vax-05@subscription.calendar
+DTSTAMP:20261121T052300Z
+DTSTART;VALUE=DATE:20270113
+DTEND;VALUE=DATE:20270114
+SUMMARY:【计划】五联①＋13价肺炎结合①（自费）
+DESCRIPTION:当日计划注射针数：2。满2月龄。两针不同部
+ 位接种；五联含百白破/IPV/Hib。PCV13按所选品牌的2、4、
+ 6月龄基础程序。\n本日为建议接种或记录核对日，并非
+ 已预约或已接种。务必与接种门诊核对产品说明书、禁
+ 忌证、上次接种日期及最小间隔。不同疫苗的同时接种
+ 规则以最新版规范为准。注射后留观30分钟。
+CATEGORIES:儿童疫苗接种参考
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:接种计划提醒：五联①＋13价肺炎结合①（自
+ 费）
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:接种计划提醒：五联①＋13价肺炎结合①（自
+ 费）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-vax-06@subscription.calendar
+DTSTAMP:20261121T052300Z
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+SUMMARY:【计划】口服五价轮状病毒②（自费）
+DESCRIPTION:当日计划注射针数：0。与首剂至少间隔4周，
+ 核对实际口服记录及说明书。\n本日为建议接种或记录
+ 核对日，并非已预约或已接种。务必与接种门诊核对产
+ 品说明书、禁忌证、上次接种日期及最小间隔。不同疫
+ 苗的同时接种规则以最新版规范为准。注射后留观30分
+ 钟。
+CATEGORIES:儿童疫苗接种参考
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:接种计划提醒：口服五价轮状病毒②（自费）
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:接种计划提醒：口服五价轮状病毒②（自费）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-vax-07@subscription.calendar
+DTSTAMP:20261121T052300Z
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270216
+SUMMARY:【计划】五联②（自费）
+DESCRIPTION:当日计划注射针数：1。满3月龄；核对与上一
+ 剂五联最小间隔。如前剂延期请相应顺延。\n本日为建
+ 议接种或记录核对日，并非已预约或已接种。务必与接
+ 种门诊核对产品说明书、禁忌证、上次接种日期及最小
+ 间隔。不同疫苗的同时接种规则以最新版规范为准。注
+ 射后留观30分钟。
+CATEGORIES:儿童疫苗接种参考
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:接种计划提醒：五联②（自费）
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:接种计划提醒：五联②（自费）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-vax-08@subscription.calendar
+DTSTAMP:20261121T052300Z
+DTSTART;VALUE=DATE:20270219
+DTEND;VALUE=DATE:20270220
+SUMMARY:【计划】口服五价轮状病毒③（自费）
+DESCRIPTION:当日计划注射针数：0。距计划第2剂4周。完成3
+ 剂口服程序；全程须在产品允许的截止月龄内完成。\n
+ 本日为建议接种或记录核对日，并非已预约或已接种。
+ 务必与接种门诊核对产品说明书、禁忌证、上次接种日
+ 期及最小间隔。不同疫苗的同时接种规则以最新版规范
+ 为准。注射后留观30分钟。
+CATEGORIES:儿童疫苗接种参考
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:接种计划提醒：口服五价轮状病毒③（自费）
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:接种计划提醒：口服五价轮状病毒③（自费）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-vax-09@subscription.calendar
+DTSTAMP:20261121T052300Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:【计划】五联③＋13价肺炎结合②（自费）
+DESCRIPTION:当日计划注射针数：2。满4月龄；两针不同部
+ 位；核对五联与PCV13各自上次剂次和最小间隔。\n本日
+ 为建议接种或记录核对日，并非已预约或已接种。务必
+ 与接种门诊核对产品说明书、禁忌证、上次接种日期及
+ 最小间隔。不同疫苗的同时接种规则以最新版规范为准
+ 。注射后留观30分钟。
+CATEGORIES:儿童疫苗接种参考
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:接种计划提醒：五联③＋13价肺炎结合②（自
+ 费）
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:接种计划提醒：五联③＋13价肺炎结合②（自
+ 费）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-vax-10@subscription.calendar
+DTSTAMP:20261121T052300Z
+DTSTART;VALUE=DATE:20270517
+DTEND;VALUE=DATE:20270518
+SUMMARY:【计划】乙肝③（免费）＋13价肺炎结合③（自费
+ ）
+DESCRIPTION:当日计划注射针数：2。满6月龄，核对乙肝第3
+ 剂与前剂间隔、肺炎结合第3剂间隔。\n本日为建议接种
+ 或记录核对日，并非已预约或已接种。务必与接种门诊
+ 核对产品说明书、禁忌证、上次接种日期及最小间隔。
+ 不同疫苗的同时接种规则以最新版规范为准。注射后留
+ 观30分钟。
+CATEGORIES:儿童疫苗接种参考
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:接种计划提醒：乙肝③（免费）＋13价肺炎结
+ 合③（自费）
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:接种计划提醒：乙肝③（免费）＋13价肺炎结
+ 合③（自费）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-vax-11@subscription.calendar
+DTSTAMP:20261121T052300Z
+DTSTART;VALUE=DATE:20270527
+DTEND;VALUE=DATE:20270528
+SUMMARY:【计划】四价流脑结合①（自费）
+DESCRIPTION:当日计划注射针数：1。按6～23月龄适用的四价
+ ACYW结合疫苗说明书选择；若门诊无适用产品，及时按
+ 免费流脑程序接种。\n本日为建议接种或记录核对日，
+ 并非已预约或已接种。务必与接种门诊核对产品说明书
+ 、禁忌证、上次接种日期及最小间隔。不同疫苗的同时
+ 接种规则以最新版规范为准。注射后留观30分钟。
+CATEGORIES:儿童疫苗接种参考
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:接种计划提醒：四价流脑结合①（自费）
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:接种计划提醒：四价流脑结合①（自费）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-vax-12@subscription.calendar
+DTSTAMP:20261121T052300Z
+DTSTART;VALUE=DATE:20270604
+DTEND;VALUE=DATE:20270605
+SUMMARY:【计划】EV71手足口灭活①（自费）
+DESCRIPTION:当日计划注射针数：1。满6月龄，预防EV71引起
+ 的相关重症，不预防所有手足口病。\n本日为建议接种
+ 或记录核对日，并非已预约或已接种。务必与接种门诊
+ 核对产品说明书、禁忌证、上次接种日期及最小间隔。
+ 不同疫苗的同时接种规则以最新版规范为准。注射后留
+ 观30分钟。
+CATEGORIES:儿童疫苗接种参考
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:接种计划提醒：EV71手足口灭活①（自费）
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:接种计划提醒：EV71手足口灭活①（自费）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-vax-13@subscription.calendar
+DTSTAMP:20261121T052300Z
+DTSTART;VALUE=DATE:20270628
+DTEND;VALUE=DATE:20270629
+SUMMARY:【计划】四价流脑结合②（自费）
+DESCRIPTION:当日计划注射针数：1。与第1剂约间隔1个月，
+ 须以具体产品说明书为准；请核对能否替代A群流脑相
+ 应剂次。\n本日为建议接种或记录核对日，并非已预约
+ 或已接种。务必与接种门诊核对产品说明书、禁忌证、
+ 上次接种日期及最小间隔。不同疫苗的同时接种规则以
+ 最新版规范为准。注射后留观30分钟。
+CATEGORIES:儿童疫苗接种参考
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:接种计划提醒：四价流脑结合②（自费）
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:接种计划提醒：四价流脑结合②（自费）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-vax-14@subscription.calendar
+DTSTAMP:20261121T052300Z
+DTSTART;VALUE=DATE:20270705
+DTEND;VALUE=DATE:20270706
+SUMMARY:【计划】EV71手足口灭活②（自费）
+DESCRIPTION:当日计划注射针数：1。与上一剂通常间隔至少
+ 1个月，核对产品说明书。\n本日为建议接种或记录核对
+ 日，并非已预约或已接种。务必与接种门诊核对产品说
+ 明书、禁忌证、上次接种日期及最小间隔。不同疫苗的
+ 同时接种规则以最新版规范为准。注射后留观30分钟。
+CATEGORIES:儿童疫苗接种参考
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:接种计划提醒：EV71手足口灭活②（自费）
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:接种计划提醒：EV71手足口灭活②（自费）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-vax-15@subscription.calendar
+DTSTAMP:20261121T052300Z
+DTSTART;VALUE=DATE:20270713
+DTEND;VALUE=DATE:20270714
+SUMMARY:【计划】麻腮风①＋乙脑减毒活①（免费）
+DESCRIPTION:当日计划注射针数：2。满8月龄。两种注射类
+ 减毒活疫苗可以同日不同部位接种；若不同日通常至少
+ 间隔28天。\n本日为建议接种或记录核对日，并非已预
+ 约或已接种。务必与接种门诊核对产品说明书、禁忌证
+ 、上次接种日期及最小间隔。不同疫苗的同时接种规则
+ 以最新版规范为准。注射后留观30分钟。
+CATEGORIES:儿童疫苗接种参考
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:接种计划提醒：麻腮风①＋乙脑减毒活①（免
+ 费）
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:接种计划提醒：麻腮风①＋乙脑减毒活①（免
+ 费）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-vax-16@subscription.calendar
+DTSTAMP:20261121T052300Z
+DTSTART;VALUE=DATE:20270924
+DTEND;VALUE=DATE:20270925
+SUMMARY:【计划】流感灭活①（当季、自费）
+DESCRIPTION:当日计划注射针数：1。满6月龄后按当季供应
+ 接种；首次接种儿童通常需要2剂，间隔至少4周。此日
+ 为建议预约日。\n本日为建议接种或记录核对日，并非
+ 已预约或已接种。务必与接种门诊核对产品说明书、禁
+ 忌证、上次接种日期及最小间隔。不同疫苗的同时接种
+ 规则以最新版规范为准。注射后留观30分钟。
+CATEGORIES:儿童疫苗接种参考
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:接种计划提醒：流感灭活①（当季、自费）
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:接种计划提醒：流感灭活①（当季、自费）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-vax-17@subscription.calendar
+DTSTAMP:20261121T052300Z
+DTSTART;VALUE=DATE:20271022
+DTEND;VALUE=DATE:20271023
+SUMMARY:【计划】流感灭活②（视接种史）
+DESCRIPTION:当日计划注射针数：1。若本流感季需要2剂，
+ 则与第1剂至少间隔4周；如无需第二剂可忽略此条。\n
+ 本日为建议接种或记录核对日，并非已预约或已接种。
+ 务必与接种门诊核对产品说明书、禁忌证、上次接种日
+ 期及最小间隔。不同疫苗的同时接种规则以最新版规范
+ 为准。注射后留观30分钟。
+CATEGORIES:儿童疫苗接种参考
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:接种计划提醒：流感灭活②（视接种史）
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:接种计划提醒：流感灭活②（视接种史）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-vax-18@subscription.calendar
+DTSTAMP:20261121T052300Z
+DTSTART;VALUE=DATE:20271115
+DTEND;VALUE=DATE:20271116
+SUMMARY:【计划】13价肺炎加强④＋水痘①（自费）
+DESCRIPTION:当日计划注射针数：2。满12月龄。肺炎结合加
+ 强剂通常12～15月龄；水痘首针按杭州门诊与具体产品
+ 说明书安排。\n本日为建议接种或记录核对日，并非已
+ 预约或已接种。务必与接种门诊核对产品说明书、禁忌
+ 证、上次接种日期及最小间隔。不同疫苗的同时接种规
+ 则以最新版规范为准。注射后留观30分钟。
+CATEGORIES:儿童疫苗接种参考
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:接种计划提醒：13价肺炎加强④＋水痘①（自
+ 费）
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:接种计划提醒：13价肺炎加强④＋水痘①（自
+ 费）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-vax-19@subscription.calendar
+DTSTAMP:20261121T052300Z
+DTSTART;VALUE=DATE:20280515
+DTEND;VALUE=DATE:20280516
+SUMMARY:【计划】五联加强④＋麻腮风②
+DESCRIPTION:当日计划注射针数：2。满18月龄。五联自费、
+ 麻腮风免费；核对五联完成4剂及6岁仍须百白破加强。\
+ n本日为建议接种或记录核对日，并非已预约或已接种
+ 。务必与接种门诊核对产品说明书、禁忌证、上次接种
+ 日期及最小间隔。不同疫苗的同时接种规则以最新版规
+ 范为准。注射后留观30分钟。
+CATEGORIES:儿童疫苗接种参考
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:接种计划提醒：五联加强④＋麻腮风②
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:接种计划提醒：五联加强④＋麻腮风②
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-vax-20@subscription.calendar
+DTSTAMP:20261121T052300Z
+DTSTART;VALUE=DATE:20280613
+DTEND;VALUE=DATE:20280614
+SUMMARY:【计划】甲肝减毒活①（免费）
+DESCRIPTION:当日计划注射针数：1。健康幼儿可选1剂减毒
+ 活甲肝；距计划麻腮风②超过28天。若选灭活甲肝应改
+ 为2剂程序。\n本日为建议接种或记录核对日，并非已预
+ 约或已接种。务必与接种门诊核对产品说明书、禁忌证
+ 、上次接种日期及最小间隔。不同疫苗的同时接种规则
+ 以最新版规范为准。注射后留观30分钟。
+CATEGORIES:儿童疫苗接种参考
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:接种计划提醒：甲肝减毒活①（免费）
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:接种计划提醒：甲肝减毒活①（免费）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-vax-21@subscription.calendar
+DTSTAMP:20261121T052300Z
+DTSTART;VALUE=DATE:20280925
+DTEND;VALUE=DATE:20280926
+SUMMARY:【计划】流感疫苗（2028–29季）
+DESCRIPTION:当日计划注射针数：1。每季参考当年最新指导
+ 与供应安排。接种剂次按既往流感疫苗接种史确定。\n
+ 本日为建议接种或记录核对日，并非已预约或已接种。
+ 务必与接种门诊核对产品说明书、禁忌证、上次接种日
+ 期及最小间隔。不同疫苗的同时接种规则以最新版规范
+ 为准。注射后留观30分钟。
+CATEGORIES:儿童疫苗接种参考
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:接种计划提醒：流感疫苗（2028–29季）
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:接种计划提醒：流感疫苗（2028–29季）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-vax-22@subscription.calendar
+DTSTAMP:20261121T052300Z
+DTSTART;VALUE=DATE:20281113
+DTEND;VALUE=DATE:20281114
+SUMMARY:【计划】乙脑减毒活②（免费）
+DESCRIPTION:当日计划注射针数：1。满2周岁，完成两剂乙
+ 脑减毒活疫苗程序；若此前改用灭活程序请门诊重新安
+ 排。\n本日为建议接种或记录核对日，并非已预约或已
+ 接种。务必与接种门诊核对产品说明书、禁忌证、上次
+ 接种日期及最小间隔。不同疫苗的同时接种规则以最新
+ 版规范为准。注射后留观30分钟。
+CATEGORIES:儿童疫苗接种参考
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:接种计划提醒：乙脑减毒活②（免费）
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:接种计划提醒：乙脑减毒活②（免费）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-vax-23@subscription.calendar
+DTSTAMP:20261121T052300Z
+DTSTART;VALUE=DATE:20290925
+DTEND;VALUE=DATE:20290926
+SUMMARY:【计划】流感疫苗（2029–30季）
+DESCRIPTION:当日计划注射针数：1。按当季流感疫苗接种指
+ 南及产品年龄范围安排。\n本日为建议接种或记录核对
+ 日，并非已预约或已接种。务必与接种门诊核对产品说
+ 明书、禁忌证、上次接种日期及最小间隔。不同疫苗的
+ 同时接种规则以最新版规范为准。注射后留观30分钟。
+CATEGORIES:儿童疫苗接种参考
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:接种计划提醒：流感疫苗（2029–30季）
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:接种计划提醒：流感疫苗（2029–30季）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-vax-24@subscription.calendar
+DTSTAMP:20261121T052300Z
+DTSTART;VALUE=DATE:20291113
+DTEND;VALUE=DATE:20291114
+SUMMARY:【计划】3岁流脑加强（方案核对）
+DESCRIPTION:当日计划注射针数：1。国家免费A+C流脑多糖剂
+ 次，可询问合规结合疫苗替代；婴儿期已接种四价结合
+ 不代表自动免除。\n本日为建议接种或记录核对日，并
+ 非已预约或已接种。务必与接种门诊核对产品说明书、
+ 禁忌证、上次接种日期及最小间隔。不同疫苗的同时接
+ 种规则以最新版规范为准。注射后留观30分钟。
+CATEGORIES:儿童疫苗接种参考
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:接种计划提醒：3岁流脑加强（方案核对）
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:接种计划提醒：3岁流脑加强（方案核对）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-vax-25@subscription.calendar
+DTSTAMP:20261121T052300Z
+DTSTART;VALUE=DATE:20291120
+DTEND;VALUE=DATE:20291121
+SUMMARY:【计划】水痘减毒活②（自费）
+DESCRIPTION:当日计划注射针数：1。年满3岁后安排第二剂
+ ，核对第1剂实际日期及杭州门诊程序。\n本日为建议接
+ 种或记录核对日，并非已预约或已接种。务必与接种门
+ 诊核对产品说明书、禁忌证、上次接种日期及最小间隔
+ 。不同疫苗的同时接种规则以最新版规范为准。注射后
+ 留观30分钟。
+CATEGORIES:儿童疫苗接种参考
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:接种计划提醒：水痘减毒活②（自费）
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:接种计划提醒：水痘减毒活②（自费）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-vax-26@subscription.calendar
+DTSTAMP:20261121T052300Z
+DTSTART;VALUE=DATE:20300925
+DTEND;VALUE=DATE:20300926
+SUMMARY:【计划】流感疫苗（2030–31季）
+DESCRIPTION:当日计划注射针数：1。按当季流感疫苗接种指
+ 南及产品年龄范围安排。\n本日为建议接种或记录核对
+ 日，并非已预约或已接种。务必与接种门诊核对产品说
+ 明书、禁忌证、上次接种日期及最小间隔。不同疫苗的
+ 同时接种规则以最新版规范为准。注射后留观30分钟。
+CATEGORIES:儿童疫苗接种参考
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:接种计划提醒：流感疫苗（2030–31季）
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:接种计划提醒：流感疫苗（2030–31季）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-vax-27@subscription.calendar
+DTSTAMP:20261121T052300Z
+DTSTART;VALUE=DATE:20301113
+DTEND;VALUE=DATE:20301114
+SUMMARY:【计划】4岁核对脊灰完成记录
+DESCRIPTION:当日计划注射针数：0。如已完成4剂符合规定
+ 的IPV，通常无需再口服脊灰疫苗；请门诊核实接种证。
+ \n本日为建议接种或记录核对日，并非已预约或已接种
+ 。务必与接种门诊核对产品说明书、禁忌证、上次接种
+ 日期及最小间隔。不同疫苗的同时接种规则以最新版规
+ 范为准。注射后留观30分钟。
+CATEGORIES:儿童疫苗接种参考
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:接种计划提醒：4岁核对脊灰完成记录
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:接种计划提醒：4岁核对脊灰完成记录
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-vax-28@subscription.calendar
+DTSTAMP:20261121T052300Z
+DTSTART;VALUE=DATE:20310925
+DTEND;VALUE=DATE:20310926
+SUMMARY:【计划】流感疫苗（2031–32季）
+DESCRIPTION:当日计划注射针数：1。按当季流感疫苗接种指
+ 南及产品年龄范围安排。\n本日为建议接种或记录核对
+ 日，并非已预约或已接种。务必与接种门诊核对产品说
+ 明书、禁忌证、上次接种日期及最小间隔。不同疫苗的
+ 同时接种规则以最新版规范为准。注射后留观30分钟。
+CATEGORIES:儿童疫苗接种参考
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:接种计划提醒：流感疫苗（2031–32季）
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:接种计划提醒：流感疫苗（2031–32季）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-vax-29@subscription.calendar
+DTSTAMP:20261121T052300Z
+DTSTART;VALUE=DATE:20320925
+DTEND;VALUE=DATE:20320926
+SUMMARY:【计划】流感疫苗（2032–33季）
+DESCRIPTION:当日计划注射针数：1。按当季流感疫苗接种指
+ 南及产品年龄范围安排。\n本日为建议接种或记录核对
+ 日，并非已预约或已接种。务必与接种门诊核对产品说
+ 明书、禁忌证、上次接种日期及最小间隔。不同疫苗的
+ 同时接种规则以最新版规范为准。注射后留观30分钟。
+CATEGORIES:儿童疫苗接种参考
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:接种计划提醒：流感疫苗（2032–33季）
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:接种计划提醒：流感疫苗（2032–33季）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hz-vax-30@subscription.calendar
+DTSTAMP:20261121T052300Z
+DTSTART;VALUE=DATE:20321115
+DTEND;VALUE=DATE:20321116
+SUMMARY:【计划】6岁百白破⑤＋流脑剂次核对
+DESCRIPTION:当日计划注射针数：2。6岁后国家程序百白破
+ 第5剂；流脑按届时国家程序及已接种的结合疫苗核对
+ ；周末顺延参考日期。\n本日为建议接种或记录核对日
+ ，并非已预约或已接种。务必与接种门诊核对产品说明
+ 书、禁忌证、上次接种日期及最小间隔。不同疫苗的同
+ 时接种规则以最新版规范为准。注射后留观30分钟。
+CATEGORIES:儿童疫苗接种参考
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:接种计划提醒：6岁百白破⑤＋流脑剂次核对
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:接种计划提醒：6岁百白破⑤＋流脑剂次核对
+END:VALARM
+END:VEVENT
+END:VCALENDAR
